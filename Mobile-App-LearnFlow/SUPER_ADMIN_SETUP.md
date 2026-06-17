@@ -4,7 +4,7 @@ This guide explains how to create a super admin user for your application.
 
 ## Prerequisites
 
-1. Lovable Cloud must be enabled
+1. Supabase must be enabled
 2. Database schema must be set up (run `database-schema.sql` first)
 
 ## Method 1: Using the Edge Function (Recommended)
@@ -29,7 +29,7 @@ curl -X POST https://your-project.supabase.co/functions/v1/setup-demo-users
 
 If you want to make an existing user a super admin:
 
-1. Open your Lovable Cloud SQL editor
+1. Open your Supabase SQL editor
 2. Run the SQL from `setup-super-admin.sql`
 3. Replace 'super@admin.com' with your user's email:
 

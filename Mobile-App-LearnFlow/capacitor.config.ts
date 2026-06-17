@@ -1,13 +1,12 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'app.lovable.d9cdcda112554a40b0e814649c812945',
+  appId: 'com.learnflow.app',
   appName: 'LearnFlow',
   webDir: 'dist',
   // Server config commented out - app now uses local build
   // Uncomment below for hot-reload development from Lovable
   // server: {
-  //   url: 'https://d9cdcda1-1255-4a40-b0e8-14649c812945.lovableproject.com?forceHideBadge=true',
   //   cleartext: true
   // },
   plugins: {

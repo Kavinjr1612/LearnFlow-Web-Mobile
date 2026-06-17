@@ -108,7 +108,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const login = async (email: string, password: string) => {
     if (!supabase) {
-      return { error: 'Authentication is not configured. Please enable Lovable Cloud.' };
+      return { error: 'Authentication is not configured. Please enable Backend.' };
     }
     
     const { error } = await supabase.auth.signInWithPassword({
@@ -121,7 +121,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const loginWithStudentId = async (studentId: string, password: string) => {
     if (!supabase) {
-      return { error: 'Authentication is not configured. Please enable Lovable Cloud.' };
+      return { error: 'Authentication is not configured. Please enable Backend.' };
     }
     
     try {
@@ -156,7 +156,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signup = async (name: string, email: string, password: string) => {
     if (!supabase) {
-      return { error: 'Authentication is not configured. Please enable Lovable Cloud.' };
+      return { error: 'Authentication is not configured. Please enable Backend.' };
     }
     
     const { error } = await supabase.auth.signUp({

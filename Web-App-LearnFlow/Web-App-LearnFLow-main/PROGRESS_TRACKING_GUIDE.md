@@ -208,7 +208,7 @@ Potential improvements:
 ## Storage
 
 Currently uses **localStorage** for simplicity. For production:
-- Migrate to database (Lovable Cloud/Supabase)
+- Migrate to database (Supabase)
 - Add user authentication validation
 - Implement data sync across devices
 - Add backup and export features

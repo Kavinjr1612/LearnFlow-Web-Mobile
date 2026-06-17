@@ -1,4 +1,4 @@
-package app.lovable.d9cdcda112554a40b0e814649c812945;
+package com.learnflow.app;
 
 import com.getcapacitor.BridgeActivity;
 
