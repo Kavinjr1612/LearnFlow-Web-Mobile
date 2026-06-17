@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LearnFlow</string>
+    <string name="title_activity_main">LearnFlow</string>
+    <string name="package_name">app.lovable.d9cdcda112554a40b0e814649c812945</string>
+    <string name="custom_url_scheme">app.lovable.d9cdcda112554a40b0e814649c812945</string>
+</resources>
